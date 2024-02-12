@@ -1,0 +1,32 @@
+main {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: azure;
+    background: linear-gradient(to right, #59c173, #a17fe0, #5d26c1);
+    height: 250px;
+    width: 300px;
+}
+
+h1 {
+    padding: 5px;
+}
+
+p {
+    padding: 5px;
+}
+
+.btn-random {
+    color:azure;
+    background: linear-gradient(to right, #333333, #dd1818);
+    border: #333333 solid;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+}
+#repas {
+    margin-bottom: 10px;
+}
+

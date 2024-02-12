@@ -1,11 +1,8 @@
-function RandCountry(array) {
-    let rand = Math.random()*country.length | 0;
-    let rValue = array[rand];
-    return rValue;
+const bountonRandom = document.querySelector(".btn-random");
+
+function RandCountry() {
+    let country = ["Chinois","Francais","Italien","Japonais","Mexicain","Thailandais"];
+    let random = country[Math.floor(Math.random()*country.length)];
+    document.getElementById('repas').innerHTML = "on mange " + random;
 }
-
-let country = ["Chine","France","Italie","Japon","Mexique","Thailande"];
-let rValue = RandCountry(country)
-
-
-
+bountonRandom.addEventListener ("click", RandCountry)
