@@ -7,13 +7,14 @@ function RandCountry() {
 
     switch (random) {
         case "Chinois":
-        console.log("riz cantonais, sauté de nouille, ...");
+            document.getElementById('menu').innerHTML = "riz cantonais, sauté de nouille, ...";
         break;
         case "Francais":
-        console.log("risotto, raclette, boeuf bourguignon, ...");
+            document.getElementById('menu').innerHTML = "risotto, raclette, boeuf bourguignon, ...";
         break;
         default:
-        console.log(`Désolé, nous n'avons rien à vous proposé pour le menu ${random}.`);
+            document.getElementById('menu').innerHTML = `Désolé, nous n'avons rien à vous proposé pour le menu ${random}.`;
+        // la suite a faire
     }
 }
 bountonRandom.addEventListener ("click", RandCountry)
