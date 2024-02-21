@@ -11,7 +11,7 @@ main {
 }
 
 h1 {
-    padding: 5px;
+    padding: 10px 5px 5px 5px;
 }
 
 p {
@@ -26,7 +26,7 @@ p {
     width: 100px;
     height: 30px;
 }
-#repas {
+#repas, #menu {
     margin-bottom: 10px;
 }
 
