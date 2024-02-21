@@ -6,7 +6,7 @@ main {
     border-radius: 10px;
     color: azure;
     background: linear-gradient(to right, #59c173, #a17fe0, #5d26c1);
-    height: 250px;
+    height: auto;
     width: 300px;
 }
 
